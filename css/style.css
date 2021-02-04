@@ -678,15 +678,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: #e62b1e;
 }
 
 #about h3 {
   font-size: 18px;
   font-weight: bold;
-  text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  color: #e62b1e;
 }
 
 #about p {
