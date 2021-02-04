@@ -13,6 +13,7 @@ body {
   background: #fff;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
+
 }
 
 a {
@@ -157,7 +158,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
+  background: rgba(0, 0, 0, 0.98);
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -186,7 +187,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -706,6 +707,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  box-shadow: 0 2px 4px 0 rgba(218, 218, 218, 0.2), 0 6px 10px 0 rgba(231, 231, 231, 0.19);
+  cursor: pointer;
 }
 
 #speakers .speaker .details {
@@ -1070,13 +1073,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
+  border: 1px solid #e0e5fa;
+  padding: 5px;
   margin-bottom: 30px;
 }
 
 #supporters .supporter-logo {
-  padding: 30px;
+/*   padding: 30px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1086,21 +1089,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
+  border:0.5px solid black;
+  margin-bottom: 4px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-  height: 160px;
+/*   height: 160px; */
 }
 
-#supporters .supporter-logo:hover img {
+/* #supporters .supporter-logo:hover img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
 #supporters img {
   transition: all 0.4s ease-in-out;
-}
+} */
 
 /*--------------------------------------------------------------
 # F.A.Q Section
@@ -1536,6 +1539,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+
+/* ------------------------------------------------------------
+                  BACKGROUND PATTERN 
+---------------------------------------------------------------*/
+
+.bg-pattern {
+  background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+}
+
+
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
