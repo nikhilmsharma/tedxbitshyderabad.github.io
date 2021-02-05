@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -42,6 +41,72 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <style>
+  .containerimg {
+    position: relative;
+    width: 100%;
+  }
+
+  .imageef {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .bottomtext {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .containerimg:hover .imageef {
+    opacity: 0.3;
+     filter: blur(5.83px) ;
+  }
+
+  .containerimg:hover .bottomtext {
+    opacity: 1;
+  }
+
+  .atext {
+    background-color:rgba(197, 205, 217,0.8);
+    color: white;
+    border-radius: 24%;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .gg-play-button-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 20px
+}
+.gg-play-button-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 0;
+    height: 10px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 6px solid;
+    top: 4px;
+    left: 7px
+}
+  </style>
   <!-- =======================================================
     Theme Name: TheEvent
     Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
@@ -96,8 +161,17 @@
 
         <div class="row">
           <div class="col-md-6">
-            <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+
+          <div class="containerimg">
+            <img src="img/speakers/1.jpg" alt="Speaker 1" class="containerimg">
+            <div class="bottomtext" onclick="location.href='https://www.youtube.com/watch?v=SucvjUnhkGI'">
+              <html lang="en"><div class="atext">
+                <i class="gg-play-button-o"></i>
+              </div>
+            </div>
           </div>
+
+      </div>
 
           <div class="col-md-6">
             <div class="details">
@@ -114,7 +188,14 @@
         <p>
         <div class="row">
           <div class="col-md-6">
-            <img src="img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+            <div class="containerimg">
+            <img src="img/speakers/2.jpg" alt="Speaker 2" class="containerimg">
+            <div class="bottomtext" onclick="location.href='https://www.youtube.com/watch?v=SucvjUnhkGI'">
+              <html lang="en"><div class="atext">
+                <i class="gg-play-button-o"></i>
+              </div>
+            </div>
+          </div>
           </div>
 
           <div class="col-md-6">
@@ -132,7 +213,14 @@
       <p>
       <div class="row">
         <div class="col-md-6">
-          <img src="img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+          <div class="containerimg">
+          <img src="img/speakers/3.jpg" alt="Speaker 3" class="containerimg">
+          <div class="bottomtext" onclick="location.href='https://www.youtube.com/watch?v=SucvjUnhkGI'">
+            <html lang="en"><div class="atext">
+              <i class="gg-play-button-o"></i>
+            </div>
+          </div>
+        </div>
         </div>
 
         <div class="col-md-6">
@@ -152,7 +240,14 @@
     <p>
     <div class="row">
       <div class="col-md-6">
-        <img src="img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
+        <div class="containerimg">
+        <img src="img/speakers/4.jpg" alt="Speaker 4" class="containerimg">
+        <div class="bottomtext" onclick="location.href='https://www.youtube.com/watch?v=SucvjUnhkGI'">
+          <html lang="en"><div class="atext">
+            <i class="gg-play-button-o"></i>
+          </div>
+        </div>
+      </div>
       </div>
 
       <div class="col-md-6">
@@ -172,7 +267,14 @@
   <p>
   <div class="row">
     <div class="col-md-6">
-      <img src="img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
+      <div class="containerimg">
+      <img src="img/speakers/5.jpg" alt="Speaker 5" class="containerimg">
+      <div class="bottomtext" onclick="location.href='https://www.youtube.com/watch?v=SucvjUnhkGI'">
+        <html lang="en"><div class="atext">
+          <i class="gg-play-button-o"></i>
+        </div>
+      </div>
+    </div>
     </div>
 
     <div class="col-md-6">
@@ -192,7 +294,14 @@ An award winning theatre actor, a nationally celebrated film actor, a IPL match 
 <p>
 <div class="row">
   <div class="col-md-6">
-    <img src="img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
+    <div class="containerimg">
+    <img src="img/speakers/6.jpg" alt="Speaker 6" class="containerimg">
+    <div class="bottomtext" onclick="location.href='https://www.youtube.com/watch?v=SucvjUnhkGI'">
+      <html lang="en"><div class="atext">
+        <i class="gg-play-button-o"></i>
+      </div>
+    </div>
+  </div>
   </div>
 
   <div class="col-md-6">
@@ -212,7 +321,14 @@ Neville Shah has broken all pre-conceived notions that have been thrown his way 
 <p>
 <div class="row">
   <div class="col-md-6">
-    <img src="img/speakers/7.jpg" alt="Speaker 7" class="img-fluid">
+    <div class="containerimg">
+    <img src="img/speakers/7.jpg" alt="Speaker 7" class="containerimg">
+    <div class="bottomtext" onclick="location.href='https://www.youtube.com/watch?v=SucvjUnhkGI'">
+      <html lang="en"><div class="atext">
+        <i class="gg-play-button-o"></i>
+      </div>
+    </div>
+  </div>
   </div>
 
   <div class="col-md-6">
@@ -232,7 +348,14 @@ Neville Shah has broken all pre-conceived notions that have been thrown his way 
 <p>
 <div class="row">
   <div class="col-md-6">
-    <img src="img/speakers/8.jpg" alt="Speaker 8" class="img-fluid">
+    <div class="containerimg">
+    <img src="img/speakers/8.jpg" alt="Speaker 8" class="containerimg">
+    <div class="bottomtext" onclick="location.href='https://www.youtube.com/watch?v=SucvjUnhkGI'">
+      <html lang="en"><div class="atext">
+        <i class="gg-play-button-o"></i>
+      </div>
+    </div>
+  </div>
   </div>
 
   <div class="col-md-6">
