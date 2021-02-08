@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -14,9 +13,7 @@ a {
   transition: 0.5s;
 }
 
-a:hover,
-a:active,
-a:focus {
+a:hover, a:active, a:focus {
   color: #f8234a;
   outline: none;
   text-decoration: none;
@@ -27,12 +24,7 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -149,9 +141,8 @@ h6 {
   z-index: 997;
 }
 
-#header.header-scrolled,
-#header.header-fixed {
-  background: rgba(0,0,0,1);
+#header.header-scrolled, #header.header-fixed {
+  background: rgba(0, 0, 0, 1);
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -172,8 +163,7 @@ h6 {
   color: #ec1c23;
 }
 
-#header #logo h1 a,
-#header #logo h1 a:hover {
+#header #logo h1 a, #header #logo h1 a:hover {
   color: #fff;
 }
 
@@ -189,8 +179,7 @@ h6 {
 
 /* Nav Menu Essentials */
 
-.nav-menu,
-.nav-menu * {
+.nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -209,12 +198,11 @@ h6 {
   white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul, .nav-menu li.sfHover>ul {
   display: block;
 }
 
@@ -266,16 +254,15 @@ h6 {
   outline: none;
 }
 
-.nav-menu .menu-active a,
-.nav-menu a:hover {
+.nav-menu .menu-active a, .nav-menu a:hover {
   color: #fff;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   margin-left: 8px;
 }
 
-.nav-menu > li > a:before {
+.nav-menu>li>a:before {
   content: "";
   position: absolute;
   width: 0;
@@ -287,9 +274,7 @@ h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before,
-.nav-menu li:hover > a:before,
-.nav-menu .menu-active > a:before {
+.nav-menu a:hover:before, .nav-menu li:hover>a:before, .nav-menu .menu-active>a:before {
   visibility: visible;
   width: 100%;
 }
@@ -312,8 +297,7 @@ h6 {
   background: none;
 }
 
-.nav-menu li.buy-tickets:hover a:before,
-.nav-menu li.buy-tickets.menu-active a:before {
+.nav-menu li.buy-tickets:hover a:before, .nav-menu li.buy-tickets.menu-active a:before {
   visibility: hidden;
   content: 'Not available yet';
 }
@@ -340,7 +324,7 @@ h6 {
   border-radius: 3px;
 }
 
-.nav-menu ul li:hover > a {
+.nav-menu ul li:hover>a {
   background: #ec1c23;
   color: #fff;
 }
@@ -623,7 +607,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
-
   100% {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
@@ -637,7 +620,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
-
   100% {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
@@ -688,12 +670,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   color: #fff;
 }
-#about .underline{
+
+#about .underline {
   margin: 10px auto;
-    width: 85%;
-    /* height: 20px; */
-    background-color: white;
+  width: 85%;
+  /* height: 20px; */
+  background-color: white;
 }
+
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
@@ -701,9 +685,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #speakers {
   padding: 60px 0 30px 0;
   background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
-  -webkit-box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
--moz-box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
-box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
+  -webkit-box-shadow: -2px -39px 25px 11px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: -2px -39px 25px 11px rgba(0, 0, 0, 0.8);
+  box-shadow: -2px -39px 25px 11px rgba(0, 0, 0, 0.8);
 }
 
 #speakers .speaker {
@@ -1029,11 +1013,9 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
   padding: 60px;
   overflow: hidden;
   background-color: #000;
-
 }
 
-#gallery .owl-nav,
-#gallery .owl-dots {
+#gallery .owl-nav, #gallery .owl-dots {
   margin-top: 25px;
   text-align: center;
 }
@@ -1080,13 +1062,11 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
 }
 
 #supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
   margin-bottom: 30px;
 }
 
 #supporters .supporter-logo {
-/*   padding: 30px; */
+  /*   padding: 30px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1100,7 +1080,7 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-/*   height: 160px; */
+  /*   height: 160px; */
 }
 
 #supporters .supporter-logo:hover img {
@@ -1185,8 +1165,7 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
   right: 0;
 }
 
-#subscribe .section-header h2,
-#subscribe p {
+#subscribe .section-header h2, #subscribe p {
   color: #fff;
 }
 
@@ -1228,7 +1207,7 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
-  transition: all  0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
@@ -1274,8 +1253,7 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
   background-color: #e0072f;
 }
 
-#buy-tickets #buy-ticket-modal input,
-#buy-tickets #buy-ticket-modal select {
+#buy-tickets #buy-ticket-modal input, #buy-tickets #buy-ticket-modal select {
   border-radius: 0;
 }
 
@@ -1314,8 +1292,7 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
   color: #ec1c23;
 }
 
-#contact .contact-info address,
-#contact .contact-info p {
+#contact .contact-info address, #contact .contact-info p {
   margin-bottom: 0;
   color: #112363;
 }
@@ -1336,9 +1313,7 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
   color: #ec1c23;
 }
 
-#contact .contact-address,
-#contact .contact-phone,
-#contact .contact-email {
+#contact .contact-address, #contact .contact-phone, #contact .contact-email {
   margin-bottom: 20px;
 }
 
@@ -1362,9 +1337,7 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
   margin-bottom: 15px;
 }
 
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
+#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
   display: block;
 }
 
@@ -1376,8 +1349,7 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
   font-size: 13px;
 }
 
-#contact .form input,
-#contact .form textarea {
+#contact .form input, #contact .form textarea {
   padding: 10px 14px;
   border-radius: 0;
   box-shadow: none;
@@ -1559,12 +1531,9 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
 }
 
 @media (min-width: 768px) {
-  #contact .contact-address,
-  #contact .contact-phone,
-  #contact .contact-email {
+  #contact .contact-address, #contact .contact-phone, #contact .contact-email {
     padding: 20px 0;
   }
-
   #contact .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
@@ -1581,11 +1550,9 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
   #intro {
     background-attachment: fixed;
   }
-
   #about {
     background-attachment: fixed;
   }
-
   #subscribe {
     background-attachment: fixed;
   }
@@ -1595,7 +1562,6 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
   #header .container {
     max-width: 100%;
   }
-
   .nav-menu a {
     padding: 8px 4px;
   }
@@ -1608,27 +1574,21 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
     padding: 15px 0;
     transition: all 0.5s;
   }
-
   #nav-menu-container {
     display: none;
   }
-
   #mobile-nav-toggle {
     display: inline;
   }
-
   #intro .intro-container {
     top: 70px;
   }
-
   #intro h1 {
     font-size: 34px;
   }
-
   #intro p {
     font-size: 16px;
   }
-
   #schedule .nav-tabs a {
     padding: 8px 60px;
   }
@@ -1638,11 +1598,9 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
   .back-to-top {
     bottom: 15px;
   }
-
   #faq #faq-list a {
     font-size: 18px;
   }
-
   #faq #faq-list i {
     top: 13px;
   }
@@ -1669,5 +1627,19 @@ box-shadow: -2px -39px 25px 11px rgba(0,0,0,0.8);
 @media (max-width: 460px) {
   #subscribe button {
     margin-top: 10px;
+  }
+}
+
+.desktopspons {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+@media (max-width: 770px) {
+  .desktopspons {
+    display: none;
   }
 }
