@@ -1637,9 +1637,3 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-
-@media (max-width: 770px) {
-  .desktopspons {
-    display: none;
-  }
-}
