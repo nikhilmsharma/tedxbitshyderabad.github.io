@@ -686,7 +686,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #current-speakers {
   padding: 60px 0 30px 0;
-  /*background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");*/
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
   -webkit-box-shadow: -2px -39px 25px 11px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: -2px -39px 25px 11px rgba(0, 0, 0, 0.8);
   box-shadow: -2px -39px 25px 11px rgba(0, 0, 0, 0.8);
@@ -785,7 +785,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*past speakers*/
 #speakers {
   padding: 60px 0 30px 0;
-  background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+  background-image: url("http://mpdetailing.com/wp-content/uploads/2018/11/Black-website-background-black.jpg");
   -webkit-box-shadow: -2px -39px 25px 11px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: -2px -39px 25px 11px rgba(0, 0, 0, 0.8);
   box-shadow: -2px -39px 25px 11px rgba(0, 0, 0, 0.8);
